@@ -3,10 +3,11 @@ export const renderItems = (data) => {
   const ul = document.createElement('ul'); //creamos elemento ul
   ul.classList.add('flex-container'); //clase para flexbox
 
-  data.forEach(item => { // iteramos sobre cada elemento de la data
+  const liarray = data.map(item => { // iteramos sobre cada elemento de la data
     const li = document.createElement('li'); //creamos un elemento li para cada item
     li.classList.add('card'); //clase para estilos de tarjetas
     li.setAttribute('itemscope', '');
+    li.setAttribute('itemtype', 'http://schema.org/Product'); //agregamos el itemtype
     li.setAttribute('itemprop', 'item');
 
     li.innerHTML= `<div class="card-container">
@@ -25,9 +26,10 @@ export const renderItems = (data) => {
         </dl>
     </div>`;
     console.log(li);
-
-    ul.appendChild(li); //agregamos el li al ul
+    return li
   })
+  ul.append(...liarray)
+  //liarray.forEach(item => ul.appendChild(item))
   console.log(ul);
   return ul;
 };

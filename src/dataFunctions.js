@@ -52,6 +52,8 @@ export const computeStats = (data) => {
     return acc;
   }, initialStats);
 
+  //const alcoholContents = data.map(item => parseFloat(item.facts.alcoholContent) || 0);
+
   return {
     averageAlcoholContent: (stats.totalAlcoholContent / stats.count).toFixed(2),
     averageCalories: (stats.totalCalorias / stats.count).toFixed(2),

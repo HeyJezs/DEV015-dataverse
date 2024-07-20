@@ -57,6 +57,9 @@ clearButton.addEventListener('click', () => {
 });
 
 // BOTON PARA CALCULAR ESTADÍSTICAS
+const computeStatsButton = document.getElementById('computeStatsButton');
+const statsResult = document.getElementById('statsResult');
+
 computeStatsButton.addEventListener('click', () => {
   const stats = computeStats(data);
   displayStats(stats);
