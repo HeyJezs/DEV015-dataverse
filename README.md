@@ -46,8 +46,10 @@ Los estilos de la aplicación están definidos en style.css. Se utiliza Flexbox 
 ![image](https://github.com/user-attachments/assets/1db3dc2f-758d-4cbb-9755-522518c08778)
 
 ### Foto del Prompting
-![image](https://github.com/user-attachments/assets/ba5278b6-a9cd-46b0-bc11-77e6571c9f65)
-![image](https://github.com/user-attachments/assets/9e8d95fd-a807-41ac-9b43-0f018a62b8df)
+![image](https://github.com/user-attachments/assets/cd627ca0-f33f-4007-93c2-dba490106bca)
+
+![image](https://github.com/user-attachments/assets/a5793335-be31-4ea9-b374-fe5dfd2bafa8)
+
 
 
 
