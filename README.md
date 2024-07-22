@@ -14,27 +14,28 @@ Este proyecto es una aplicación web interactiva que presenta recetas de cóctel
 
 ## Estructura del Proyecto
 El proyecto está estructurado en varios archivos:
-index.html: Contiene la estructura básica del HTML.
-main.js: Maneja la lógica principal de la aplicación.
-view.js: Define la función renderItems para crear y estructurar los elementos HTML.
-dataFunctions.js: Contiene funciones para filtrar, ordenar y calcular estadísticas.
-dataFunctions.spec.js: Contiene pruebas unitarias para las funciones de dataFunctions.js.
-style.css: Contiene los estilos de la aplicación.
+* index.html: Contiene la estructura básica del HTML.
+* main.js: Maneja la lógica principal de la aplicación.
+* view.js: Define la función renderItems para crear y estructurar los elementos HTML.
+* dataset.js: Contiene los datos de las recetas de cócteles.
+* dataFunctions.js: Contiene funciones para filtrar, ordenar y calcular estadísticas.
+* dataFunctions.spec.js: Contiene pruebas unitarias para las funciones de dataFunctions.js.
+* style.css: Contiene los estilos de la aplicación.
 
 ## Uso
-Filtrar y Ordenar Recetas
+* Filtrar y Ordenar Recetas
 Utiliza el selector "Filtrar por tiempo" para seleccionar recetas basadas en el tiempo de preparación.
 Utiliza el selector "Ordenar por" para ordenar las recetas alfabéticamente de A-Z o de Z-A.
 Pulsa el botón "Limpiar" para restablecer los filtros y el orden.
-Calcular Estadísticas
+* Calcular Estadísticas
 Pulsa el botón "Estadísticas" para calcular y mostrar el promedio de contenido de alcohol y calorías de las recetas disponibles.
 
 ## Historias de Usuario
-Historia 1: Filtrar Recetas
+* Historia 1: Filtrar Recetas
 Como usuario quiero filtrar las recetas de cócteles por tiempo de preparación para que pueda encontrar rápidamente recetas que se ajusten a mi tiempo disponible.
-Historia 2: Ordenar Recetas
+* Historia 2: Ordenar Recetas
 Como usuario quiero ordenar las recetas de cócteles de A-Z o Z-A para poder ver las recetas en el orden que prefiero.
-Historia 3: Ver Estadísticas
+* Historia 3: Ver Estadísticas
 Como usuario quiero ver estadísticas de las recetas para que pueda obtener un resumen del contenido alcohólico y calorías promedio de los cócteles.
 
 ## Estilos
