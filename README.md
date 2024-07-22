@@ -2,12 +2,12 @@
 ¡Bienvenido a "El Recetario del Bartender"! Este proyecto web es una colección de recetas de cócteles que permite a los usuarios buscar, filtrar y ordenar recetas, así como calcular estadísticas sobre las recetas disponibles.
 
 ## Contenidos
-Descripción
-Estructura del Proyecto
-Uso
-Historias de Usuario
-Estilos
-Prototipos
+* Descripción
+* Estructura del Proyecto
+* Uso
+* Historias de Usuario
+* Estilos
+* Prototipos
 
 ## Descripción
 Este proyecto es una aplicación web interactiva que presenta recetas de cócteles. Los usuarios pueden filtrar las recetas por tiempo de preparación, ordenar las recetas por nombre y calcular estadísticas relacionadas con el contenido de alcohol y las calorías de las recetas.
